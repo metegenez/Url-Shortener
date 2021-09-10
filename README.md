@@ -1,3 +1,4 @@
+
 # Url-Shortener
 Java based REST service.
 - Service gets a link as an input and shorten it to 7 characters.
@@ -17,6 +18,12 @@ Java based REST service.
 
 ## How to Try
 Entering the aws iam user credentials you created in the .env file is enough to launch the service. It will serve at localhost:8080.
+
+| Variable | Example | Required |
+|--|--|--|
+|  AWS_ACCESS_KEY| qwertasdqwer | Yes
+|  AWS_SECRET_KEY| qwertasdqwer | Yes
+|  AWS_REGION| us-east-1 | Yes
 
 ## API 
 You can access API documentation at http://localhost:8080/swagger-ui.html.
