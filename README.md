@@ -11,6 +11,7 @@ Java based REST service.
 ## Dependencies
 - AWS Account
 - AWS IAM user with [AmazonDynamoDBFullAccess](https://github.com/SummitRoute/aws_managed_policies/blob/master/policies/AmazonDynamoDBFullAccess)
+## Tech
 - Spring Boot
 - AWS DynamoDB
 
@@ -19,6 +20,3 @@ Entering the aws iam user credentials you created in the .env file is enough to 
 
 ## API 
 You can access API documentation at http://localhost:8080/swagger-ui.html.
-
-
-
